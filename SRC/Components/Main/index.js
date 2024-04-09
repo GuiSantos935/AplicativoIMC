@@ -1,15 +1,14 @@
 import React from "react";
 import { View,Text } from "react-native";
-import Main from "../Main";
+import Form from "../Form";
 
-export default function Title(){
+export default function Main(){
     
 
     return(
 
         <View>
-            <Text>Aplicativo de IMC</Text>
-            <Main/>
+         <Form/> 
         </View>
 
     );
